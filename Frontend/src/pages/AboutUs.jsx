@@ -3,17 +3,15 @@ import "../styles/AboutUs.css";
 export default function AboutPage() {
   return (
     <section className="page-section">
-      <div className="container">
         <div className="card">
           <header className="card-header">
-            <h1 className="page-title">Welcome to Barangay 830</h1>
-            <p className="lead">
-              A short history and overview of our community
-            </p>
+            <h1 className="page-title">About Barangay 830</h1>
+            <p className="lead">History, mission, and vision in one place</p>
           </header>
 
           <div className="card-body">
             <div>
+              <h2 className="sub-title">History</h2>
               <p className="content-paragraph">
                 Way back in the 1980s, almost all of the residents were active
                 and retired soldiers and police officers, since the area was
@@ -34,14 +32,28 @@ export default function AboutPage() {
                 called Residencials de Manila. The population reached 5,736,
                 with about 1,450 families.
               </p>
+
+              <h2 className="sub-title">Mission</h2>
+              <p className="content-paragraph">
+                Good public service and good governance ensure that government
+                actions are transparent, accountable, and focused on meeting
+                the needs of the people, promoting fairness, efficiency, and
+                sustainable development.
+              </p>
+
+              <h2 className="sub-title">Vision</h2>
+              <p className="content-paragraph">
+                To serve our constituents with full dedication and effort,
+                ensuring readiness to help at all times. To remain committed
+                to providing service 24/7 to meet their needs.
+              </p>
             </div>
 
             <aside className="illustration">
               <div className="blob" aria-hidden="true"></div>
             </aside>
-          </div> {}
-        </div> {}
-      </div>
+          </div>
+        </div>
     </section>
   );
 }

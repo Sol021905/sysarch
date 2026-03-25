@@ -3,7 +3,10 @@
   align-items: center;
   justify-content: space-between;
 
+  width: 100%;
+  margin: 0;
   padding: 12px 40px;
+  box-sizing: border-box;
 
   background-color: #ffffff; 
   opacity: 100;               

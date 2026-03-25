@@ -44,19 +44,17 @@ export default function Navbar() {
       </div>
 
       <nav className="navbar-center">
-        <Link className="nav-box" to="/about">About Us</Link>
-        <Link className="nav-box" to="/mission">Mission / Vision</Link>
-        <Link className="nav-box" to="/request">Request a Form</Link>
       </nav>
 
       <div className="navbar-right">
         {!user ? (
           <>
-            <Link className="btn signin" to="/">Sign in</Link>
+            <Link className="btn signin" to="/login">Sign in</Link>
             <Link className="btn signup" to="/register">Sign up</Link>
           </>
         ) : (
           <>
+            <Link className="nav-box" to="/request">Request a Form</Link>
             <Link to="/profile" className="account-label">Account</Link>
             <button className="btn signup" onClick={handleLogout}>
               Sign Out

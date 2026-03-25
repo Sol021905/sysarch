@@ -16,7 +16,7 @@ const pool = mysql.createPool({
   host: 'localhost',
   user: 'root',
   password: '',
-  database: 'brgy_database',
+  database: 'brgy',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0

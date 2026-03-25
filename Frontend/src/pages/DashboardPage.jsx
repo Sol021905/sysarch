@@ -54,7 +54,7 @@ export default function DashboardPage() {
       <div className="dashboard-content">
         <div className="welcome-card">
           <h1>Hello, {user.full_name || user.email}! </h1>
-          <p>You're successfully logged in to SysArc</p>
+          <p>You're successfully logged in to Barangay 830</p>
           
           <div className="user-info clickable" onClick={() => navigate('/profile')} style={{ cursor: 'pointer' }}>
             <h3>Your Account <span className="view-link">→ View Full Profile</span></h3>
